@@ -220,11 +220,11 @@ p {
   padding: 100px 0;
 }
 .pill.pl {
-  padding-left: 200px;
+  padding-left: calc((100% - 1280px) / 2);
   background: rgba(41, 77, 164, 0.0784313725) 0% 0% no-repeat padding-box;
 }
 .pill.pr {
-  padding-right: 200px;
+  padding-right: calc((100% - 1280px) / 2);
 }
 
 .pill-image,
@@ -264,6 +264,10 @@ p {
 .pharmacy {
   width: 100px;
   height: auto;
+}
+
+.map {
+  width: 100%;
 }
 
 .header {
@@ -1748,10 +1752,6 @@ p {
 }
 
 .map_wrapper {
-  display: none;
-}
-
-.map {
   display: none;
 }
 
